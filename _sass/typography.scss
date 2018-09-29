@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Mono');
+
 
 html {
 	height: 100%;
@@ -9,7 +11,7 @@ html {
 body {
 	height: 100%;
 	max-height: 100%;
-	font-family: "Merriweather", serif;
+	font-family: "Nunito", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0.01rem;
 	font-size: 1.8em;
 	line-height: 1.75em;
@@ -25,7 +27,7 @@ input, label, select, textarea, table, header, footer, .categories, .listing, .s
 	-webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
 	-o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Nunito", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	text-rendering: geometricPrecision;
 }
 
@@ -248,4 +250,8 @@ kbd {
 	h6 {
 		font-size: 1.8rem
 	}
+}
+
+.err-code {
+	font-family: "Roboto Mono", 'Courier New', Courier, monospace;
 }
