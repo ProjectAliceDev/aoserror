@@ -1,0 +1,8 @@
+---
+---
+{% assign deprecated = site.posts | where: "deprecated", "1" | sort: "title" %}
+
+<h2>Deprecated <span class="count">({{ deprecated | size }})</span></h2>
+<p>These errors have been deprecated in modern versions of AliceOS. If you encounter this error, consider contacting your game provider to update their version of AliceOS.</p>
+
+{% include listings.html listings=deprecated %}

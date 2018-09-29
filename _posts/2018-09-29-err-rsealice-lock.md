@@ -1,18 +1,20 @@
 ---
 date: 2018-09-29
 title: ERR_SEALICE_LOCK
-categories:
-    - Fatal
-    - SIP
 description: ERR_SEALICE_LOCK
-deprecated: 0
+deprecated: 1
 type: SIP
----
-## Details
-- Provider: Varies on provider
-- Type: Fatal
-- Applies to versions: n/a
 
+categories:
+    - SIP
+
+provider: Varies on provider
+provider_email: 
+
+error_type: Fatal
+version_affected: n/a
+version_deprecate: 1.0.0beta3
+---
 ## Cause of error
 The System Integrity Protection by SEAlice failed.
 

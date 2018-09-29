@@ -10,23 +10,24 @@ A central database for all error codes found in AliceOS
 Create a Jekyll markdown file and use the following as a template:
 ```md
 ---
-date: 2018-09-29
-title: ERR_CODE
+date: (put in date of writing)
+title: ERROR_CODE
 categories:
-    - 
-description: ERR_CODE
-type: Document
+description: 
+deprecated: 
+type: 
+
+provider: Default
+provider_email: admin@aliceos.app
+
+error_type: Fatal
+version_affected: 
+version_deprecate: 
 ---
-## Details
-- Provider: Provider Name
-- Type: (should match category)
-- Applies to versions: (specific set of versions)
-
-## Cause of error
+## Cause of Error
 
 
-## Possible solutions
-
+## Possible Solutions
 
 ```
 

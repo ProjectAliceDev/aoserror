@@ -86,7 +86,9 @@ social_icons:
   - RSS
 
 types:
-  - Document
-  - Video
+  - SIP
+  - Setup
+  - File System
+  - RenPy
 
 _comments:

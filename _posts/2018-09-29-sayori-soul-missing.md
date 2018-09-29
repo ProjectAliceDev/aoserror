@@ -1,18 +1,19 @@
 ---
 date: 2018-09-29
 title: SAYORI_SOUL_MISSING
-categories:
-    - Minor
-    - File system
 description: SAYORI_SOUL_MISSING
 deprecated: 0
 type: File System
----
-## Details
-- Provider: Miles Tail Prower <[neil.crashfever@gmail.com](mailto:neil.crashfever@gmail.com)>
-- Type: Minor
-- Applies to versions: 1.0.0beta2
 
+categories:
+    - File System
+
+provider: Miles Tail Prower
+provider_email: neil.crashfever@gmail.com
+
+error_type: Minor
+version_affected: 1.0.0beta2+
+---
 ## Cause of error
 Sayori's character files are missing from the AliceOS installation. 
 

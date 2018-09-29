@@ -12,6 +12,24 @@
 				</article>
 			</a>
 		</li>
+		{% else if item.deprecated == 1 %}
+		<style>
+			.text-deprecated {
+				background-color: #ffe16b;
+				color: #ad5f00;
+			}
+		</style>
+		<li {% if item.url == page.url %}class="active"{% endif %} class = "text-deprecated">
+			<a href="{{ site.baseurl }}{{ item.url }}" class = "text-deprecated">
+				<div class="icon text-deprecated">{% include document-icon.html icon=item.type %}</div>
+				<article>
+					<div>
+						<h3 class = "text-deprecated">{% if include.numbered %}{{ forloop.index }}. {% endif %}{{ item.title }}</h3>
+						<p class="text-deprecated description">This error has been deprecated.</p>
+					</div>
+				</article>
+			</a>
+		</li>
 		{% endif %}
 	{% endfor %}
 </ul>

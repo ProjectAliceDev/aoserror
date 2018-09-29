@@ -31,9 +31,17 @@ layout: default
 				}
 			</style>
 				<blockquote class = "deprecated">
-					This Stop error has been deprecated. If you continue to receive this error in your game, please consider asking your AliceOS provider to update their version of AliceOS.
+					This Stop error has been deprecated since <b>{{ page.version_deprecate }}</b>. If you recieve this error during gameplay, consider asking your game provider to update to the latest version of AliceOS.
 				</blockquote>
 			{% endif %}
+			<p>
+				<h2>Details</h2>
+				<ul>
+					<li><b>Provider:</b> {{ page.provider }} {% if page.provider_email %}&lt;<a href="mailto:{{ page.provider_email }}">{{ page.provider_email }}</a>&gt;{% endif %}</li>
+					<li><b>Error Level:</b> {{ page.error_type }}</li>
+					<li><b>Versions affected:</b> {{ page.version_affected }}</li>
+				</ul>
+			</p>
 			{{ content }}
 		</div>
 		<div class="tutorial-share">
