@@ -4,6 +4,7 @@ title: CALL_MISSING_LABEL
 categories:
     - Minor
 description: CALL_MISSING_LABEL
+deprecated: 0
 type: RenPy
 ---
 ## DETAILS AND NOTES

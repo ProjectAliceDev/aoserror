@@ -1,2 +1,4 @@
 - name: Error Database
   link: /
+- name: Depcrecated Errors
+  link: /search/?q=deprecated

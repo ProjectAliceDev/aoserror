@@ -5,6 +5,7 @@ categories:
     - Fatal
     - SIP
 description: ERR_SEALICE_LOCK
+deprecated: 0
 type: SIP
 ---
 ## Details

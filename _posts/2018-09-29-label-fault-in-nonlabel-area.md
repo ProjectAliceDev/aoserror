@@ -3,8 +3,10 @@ date: 2018-09-29
 title: LABEL_FAULT_IN_NONLABEL_AREA
 categories:
     - Minor
-    - Ren'Py
+    - RenPy
+    - Deprecated
 description: LABEL_FAULT_IN_NONLABEL_AREA
+deprecated: 1
 type: RenPy
 ---
 ## Details
