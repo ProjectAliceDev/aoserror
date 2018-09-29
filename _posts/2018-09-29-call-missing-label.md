@@ -1,21 +1,19 @@
 ---
 date: 2018-09-29
-title: LABEL_FAULT_IN_NONLABEL_AREA
+title: CALL_MISSING_LABEL
 categories:
     - Minor
     - Ren'Py
-description: LABEL_FAULT_IN_NONLABEL_AREA
+description: CALL_MISSING_LABEL
 type: RenPy
 ---
 ## Details
 - Provider: Default
 - Type: Minor
-- Applies to versions: 1.0.0beta2
+- Applies to versions: 1.0.0beta3+
 
 ## Cause of error
 Ren'Py attempted to call a label that either doesn't exist or is corrupted. This error is also typically thrown when a demo ends or when the end of a technical preview is reached.
-
-This Stop error has been replaced with the more human-readable `CALL_MISSING_LABEL`.
 
 ## Possible solutions
 - Check the game files for the correct scripts.
