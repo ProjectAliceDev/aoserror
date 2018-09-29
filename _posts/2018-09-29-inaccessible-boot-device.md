@@ -6,6 +6,7 @@ categories:
     - SIP
 description: INACCESSIBLE_BOOT_DEVICE
 type: SIP
+deprecated: 0
 ---
 ## Details
 - Provider: Default

@@ -5,6 +5,7 @@ categories:
     - Minor
     - File system
 description: SAYORI_SOUL_MISSING
+deprecated: 0
 type: File System
 ---
 ## Details

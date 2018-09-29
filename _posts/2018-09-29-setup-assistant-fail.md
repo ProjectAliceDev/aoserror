@@ -6,6 +6,7 @@ categories:
     - Setup
 description: SETUP_ASSISTANT_FAIL
 type: Setup
+deprecated: 0
 ---
 ## Details
 - Provider: Default

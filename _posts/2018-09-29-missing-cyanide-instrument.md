@@ -4,7 +4,9 @@ title: MISSING_CYANIDE_INSTRUMENT
 categories:
     - Minor
     - Setup
+    - Deprecated
 description: MISSING_CYANIDE_INSTRUMENT
+deprecated: 1
 type: Setup
 ---
 ## Details
