@@ -5,10 +5,10 @@ categories:
     - Fatal
     - SIP
 description: ERR_SEALICE_LOCK
-type: Document
+type: SIP
 ---
 ## Details
-- Provider: Default
+- Provider: Varies on provider
 - Type: Fatal
 - Applies to versions: n/a
 
@@ -18,3 +18,5 @@ The System Integrity Protection by SEAlice failed.
 ## Possible solutions
 - Check the AliceOS installation for missing or corrupted files
 - Reinstall AliceOS
+
+Check with your AliceOS provider to see if SEAlice is installed in their distribution.

@@ -5,7 +5,7 @@ categories:
     - Fatal
     - SIP
 description: INACCESSIBLE_BOOT_DEVICE
-type: Document
+type: SIP
 ---
 ## Details
 - Provider: Default
