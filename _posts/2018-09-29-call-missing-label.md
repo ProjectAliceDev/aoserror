@@ -3,6 +3,7 @@ date: 2018-09-29
 title: CALL_MISSING_LABEL
 categories:
     - Minor
+    - Ren'Py
 description: CALL_MISSING_LABEL
 deprecated: 0
 type: RenPy
