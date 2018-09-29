@@ -154,18 +154,31 @@
 			flex-wrap: wrap;
 		}
 
+		div.text-deprecated {
+			svg {
+				width: 35px;
+				height: 35px;
+				fill: #ad5f00;
+				-webkit-transition: all .2s ease;
+				margin: 0 auto;
+			}
+		}
+
 		.icon {
 			flex: 0 0 50px;
 			display: flex;
 			align-items: center;
 			padding: 0 5px 0 0;
+			
 			svg {
 				width: 35px;
 				height: 35px;
 				fill: $link-color;
 				-webkit-transition: all .2s ease;
 				margin: 0 auto;
+
 			}
+
 		}
 
 		.length {
